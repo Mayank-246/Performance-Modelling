@@ -1,0 +1,29 @@
+t=0  packet p1  Input port 0 -> Output port 0
+---
+t=1  packet p2  Input port 0 -> Output port 1
+t=1  packet p3  Input port 1 -> Output port 0
+---
+t=2  packet p6  Input port 0 -> Output port 2
+t=2  packet p5  Input port 2 -> Output port 0
+---
+t=3  packet p10  Input port 0 -> Output port 1
+t=3  packet p4  Input port 1 -> Output port 2
+---
+t=4  packet p13  Input port 0 -> Output port 0
+t=4  packet p8  Input port 1 -> Output port 1
+---
+t=5  packet p16  Input port 0 -> Output port 2
+t=5  packet p11  Input port 1 -> Output port 0
+t=5  packet p7  Input port 2 -> Output port 1
+---
+t=6  packet p14  Input port 1 -> Output port 2
+---
+t=7  packet p17  Input port 1 -> Output port 1
+t=7  packet p9  Input port 2 -> Output port 2
+---
+t=8  packet p12  Input port 2 -> Output port 1
+---
+t=9  packet p15  Input port 2 -> Output port 2
+---
+t=10  packet p18  Input port 2 -> Output port 0
+---

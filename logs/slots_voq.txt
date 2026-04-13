@@ -1,0 +1,8 @@
+Optimal Schedule (min service time = 7):
+t=0: p2 Input Port0->Output Port1  p4 Input Port1->Output Port2  p5 Input Port2->Output Port0  
+t=1: p6 Input Port0->Output Port2  p3 Input Port1->Output Port0  p7 Input Port2->Output Port1  
+t=2: p1 Input Port0->Output Port0  p8 Input Port1->Output Port1  p9 Input Port2->Output Port2  
+t=3: p11 Input Port1->Output Port0  p12 Input Port2->Output Port1  
+t=4: p13 Input Port0->Output Port0  p15 Input Port2->Output Port2  
+t=5: p10 Input Port0->Output Port1  p14 Input Port1->Output Port2  p18 Input Port2->Output Port0  
+t=6: p16 Input Port0->Output Port2  p17 Input Port1->Output Port1  

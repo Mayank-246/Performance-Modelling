@@ -1,0 +1,52 @@
+=== t=0 ===
+  Arrived: Packet p1  Input Port 0->Output Port 0
+  Arrived: Packet p2  Input Port 0->Output Port 1
+  Arrived: Packet p3  Input Port 1->Output Port 0
+  Arrived: Packet p4  Input Port 1->Output Port 2
+  Arrived: Packet p5  Input Port 2->Output Port 0
+  Sent: Packet p1  Input Port 0->Output Port 0
+  Sent: Packet p4  Input Port 1->Output Port 2
+  Forwarded this slot: 2
+=== t=1 ===
+  Arrived: Packet p6  Input Port 0->Output Port 2
+  Arrived: Packet p7  Input Port 2->Output Port 1
+  Sent: Packet p2  Input Port 0->Output Port 1
+  Sent: Packet p3  Input Port 1->Output Port 0
+  Forwarded this slot: 2
+=== t=2 ===
+  Arrived: Packet p8  Input Port 1->Output Port 1
+  Arrived: Packet p9  Input Port 2->Output Port 2
+  Sent: Packet p6  Input Port 0->Output Port 2
+  Sent: Packet p8  Input Port 1->Output Port 1
+  Sent: Packet p5  Input Port 2->Output Port 0
+  Forwarded this slot: 3
+=== t=3 ===
+  Arrived: Packet p10  Input Port 0->Output Port 1
+  Arrived: Packet p11  Input Port 1->Output Port 0
+  Arrived: Packet p12  Input Port 2->Output Port 1
+  Sent: Packet p11  Input Port 1->Output Port 0
+  Sent: Packet p7  Input Port 2->Output Port 1
+  Forwarded this slot: 2
+=== t=4 ===
+  Arrived: Packet p13  Input Port 0->Output Port 0
+  Arrived: Packet p14  Input Port 1->Output Port 2
+  Arrived: Packet p15  Input Port 2->Output Port 2
+  Sent: Packet p13  Input Port 0->Output Port 0
+  Sent: Packet p14  Input Port 1->Output Port 2
+  Sent: Packet p12  Input Port 2->Output Port 1
+  Forwarded this slot: 3
+=== t=5 ===
+  Arrived: Packet p16  Input Port 0->Output Port 2
+  Arrived: Packet p17  Input Port 1->Output Port 1
+  Arrived: Packet p18  Input Port 2->Output Port 0
+  Sent: Packet p10  Input Port 0->Output Port 1
+  Sent: Packet p9  Input Port 2->Output Port 2
+  Forwarded this slot: 2
+=== t=6 ===
+  Sent: Packet p16  Input Port 0->Output Port 2
+  Sent: Packet p17  Input Port 1->Output Port 1
+  Sent: Packet p18  Input Port 2->Output Port 0
+  Forwarded this slot: 3
+=== t=7 ===
+  Sent: Packet p15  Input Port 2->Output Port 2
+  Forwarded this slot: 1

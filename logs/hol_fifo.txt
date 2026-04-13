@@ -1,0 +1,6 @@
+[t=0] HoL block on I1: packet p4 (-> O2) is stuck behind p3
+[t=2] HoL block on I1: packet p8 (-> O1) is stuck behind p4
+[t=4] HoL block on I2: packet p9 (-> O2) is stuck behind p7
+[t=4] HoL block on I2: packet p15 (-> O2) is stuck behind p7
+[t=6] HoL block on I2: packet p12 (-> O1) is stuck behind p9
+[t=6] HoL block on I2: packet p18 (-> O0) is stuck behind p9
